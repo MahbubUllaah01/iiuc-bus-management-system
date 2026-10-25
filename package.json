@@ -1,0 +1,18 @@
+{
+  "name": "iiuc-bus-management-system",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Independent JavaScript project concept for university bus route, schedule, and student transport registration management.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "dotenv": "^16.4.7",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {}
+}
